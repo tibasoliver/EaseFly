@@ -28,33 +28,51 @@
             line-height: normal;
             letter-spacing: normal;
             color: #3761a2;
-            
+            text-align: center;
+
         }
 
         .imgpost {
             width: 176px;
             height: 176px;
         }
-        
+
         .btn {
-        background-color: #3761a2; /* Blue background */
-        border: none; /* Remove borders */
-        color: white; /* White text */
-        padding: 4px 16px; /* Some padding */
-        font-size: 16px; /* Set a font size */
-        cursor: pointer; /* Mouse pointer on hover */
+            background-color: #3761a2;
+            /* Blue background */
+            border: none;
+            /* Remove borders */
+            color: white;
+            /* White text */
+            padding: 4px 16px;
+            /* Some padding */
+            font-size: 16px;
+            /* Set a font size */
+            cursor: pointer;
+            /* Mouse pointer on hover */
+        }
+
+        .flex-rectangle {
+            background: #3761a2;
+            height: 7px
+        }
+
+        .flex-rectangle:before {
+            content: "";
+            display: block;
+            padding-top: 10%;
+        }
+
+        .jumbotron text-center {
+            background: #3761a2;
+            
         }
         
-        .flex-rectangle{
-    background:  #3761a2;
-            height: 7px
-}
-.flex-rectangle:before{
-    content: "";
-    display: block;
-    padding-top: 10%;
-}
-        
+        .oi {
+        justify-content: center;
+            display: flex;
+            flex-direction: row
+      }
     </style>
 </head>
 
@@ -97,10 +115,13 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-
-                <div class="col-5.col-lg-3" >
-                    <h1 class="ltimos-Posts">Últimos Posts</h1>
+                
+                <div class="container">
+                    <div class="jumbotron text-center col-11.col-lg-15" >
+                        <h1 class="ltimos-Posts">Últimos Posts</h1>
+                    </div>
                 </div>
+                
                 <div class="col-2.col-lg-1">
                 <div class="flex-rectangle"></div>
                 </div>
@@ -167,6 +188,8 @@
                     </div>
                 </div>
             </div>
+            
+            
             <!--
     <div class="col-sm-12">
       <h3>Column 2</h3>
@@ -181,7 +204,52 @@
     -->
         </div>
     </div>
+    
+    <br/>
+     <div class="jumbotron text-center" style="margin-bottom:0 ;background-color:#3761a2 ">
+         <!--<p>Footer</p>-->
 
+         <div class="row">
+             <div class="col-sm-3">
+               <div class="oi">
+                <img class="img-container" src="plane-icon.png" alt="Smiley face" height="42" width="42">
+                </div>
+             </div>
+
+
+
+             <div class="col-sm-1">
+                 <h6>Lorem Ipsum</h6>
+                 <h6>Lorem Ipsum</h6>
+                 <h6>Lorem Ipsum</h6>
+             </div>
+
+
+             <div class="col-sm-1">
+             </div>
+
+             <div class="col-sm-1">
+                 <h6>Lorem Ipsum</h6>
+                 <h6>Lorem Ipsum</h6>
+                 <h6>Lorem Ipsum</h6>
+             </div>
+
+
+             <div class="col-sm-1">
+             </div>
+
+             <div class="col-sm-1">
+                 <h6>Lorem Ipsum</h6>
+                 <h6>Lorem Ipsum</h6>
+                 <h6>Lorem Ipsum</h6>
+             </div>
+
+
+             <div class="col-sm-4">
+             </div>
+
+         </div>
+     </div>
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
