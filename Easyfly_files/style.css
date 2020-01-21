@@ -1,0 +1,191 @@
+.logo{
+height: 40px;
+}
+
+.img-fluid {
+    width: auto;
+}
+
+.ltimos-Posts {
+    width: 303px;
+    height: 56px;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #3761a2;
+    text-align: center;
+
+}
+
+.imgpost {
+    width: 176px;
+    height: 176px;
+    float: left;
+    margin-right: 30px;
+}
+
+.btn {
+    background-color: #45425A;
+    /* Blue background */
+    border: none;
+    /* Remove borders */
+    color: white;
+    /* White text */
+    padding: 4px 16px;
+    /* Some padding */
+    font-size: 16px;
+    /* Set a font size */
+    cursor: pointer;
+    /* Mouse pointer on hover */
+    float: right;
+}
+
+.flex-rectangle {
+    background: #009FD9;
+    height: 7px
+}
+
+.flex-rectangle:before {
+    content: "";
+    display: block;
+    padding-top: 10%;
+}
+
+.jumbotron text-center {
+    background: #3761a2;
+
+}
+
+.oi {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+.containert{
+    //border: 2px solid black;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.containert>div{
+    //background-color: #f1f1f1;
+    margin: 30px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.contem{
+   display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contem>div{
+    //background-color: #f1f1f1;
+    margin: 70px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    flex-wrap: wrap;
+}
+
+.container>div{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+.x{
+   //width: 303px;
+    height: 56px;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #3761a2;
+    text-align: center;
+}
+
+.post-content {
+  display: flex;
+}
+
+.blog-post {
+  margin-bottom: 50px;
+}
+
+h2.blog-title {
+    text-align: center;
+    color: #009FD9;
+
+}
+
+p.blog-desc {
+    text-align: justify;
+}
+
+.title {
+  text-align: center;
+  color: #009FD9;
+}
+
+.ebook-floater {
+margin-bottom: 15px;
+}
+
+.newsletter {
+  background-color: #45425A;
+  color: #fff;
+}
+
+h1.newsletter {
+    text-align: center;
+}
+
+.news-text {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+
+
+.footer {
+  background-color: #45425A;
+}
+
+.logo-footer{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-align {
+  text-align: center;
+}
+
+img.diferencial-img {
+    max-width: 100px;
+    margin-bottom: 35px;
+}
+
+.text-justify {
+  text-align: justify;
+}
