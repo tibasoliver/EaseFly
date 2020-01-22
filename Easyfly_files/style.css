@@ -26,6 +26,23 @@ height: 40px;
     height: 176px;
     float: left;
     margin-right: 30px;
+    
+
+    
+    
+}
+input.text-box {
+    border: solid 5px #009fd9;
+    background-color: rgba(196, 196, 196, 0);
+}
+
+input.text-box {
+    border: solid 5px #009fd9;
+    background-color: rgba(196, 196, 196, 0);
+    width: 450px;
+    padding: 5px;
+    color: white;
+    margin-bottom: 10px;
 }
 
 .btn {
@@ -42,6 +59,32 @@ height: 40px;
     cursor: pointer;
     /* Mouse pointer on hover */
     float: right;
+}
+
+.postrel{
+    margin: 40px;
+}
+
+.posts{
+    
+    text-align: center;
+     color: #3761a2;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.posts2{
+    
+    text-align: left;
+     color: #3761a2;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
 }
 
 .flex-rectangle {
@@ -192,9 +235,11 @@ img.main-img{
 }
 
 img.post-main-img{
-   width: 764px;
-  height: 383px;
+    width: 330px;
+    height: 265px;
+    margin-bottom: 92px;
 }
+
 
 .text-justify {
   text-align: justify;
@@ -208,14 +253,76 @@ img.post-main-img{
     
 }
 
+@media only screen and (min-width: 1200px) 
+{
+    img.post-main-img{
+    width: 730px;
+    height: 365px;
+    margin-bottom: 92px;
+}
+    
+    img.postrel1{
+        width: 352px;
+        height: 201px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1200px)    
+{
+    img.post-main-img{
+    width: 610px;
+    height: 305px;
+    margin-bottom: 92px;
+}
+ img.postrel1{
+        width: 352px;
+        height: 201px;
+    }  
+    
+    div.postrel1{
+        
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    img.post-main-img{
+    width: 450px;
+    height: 225px;
+    margin-bottom: 92px;
+    }
+    
+}
+    
+    
+@media only screen and (max-width: 767px) {
+    img.post-main-img{
+    width: 510px;
+    height: 255px;
+    margin-bottom: 92px;
+    }
+    
+}
+    
+
+
+    
+
 
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (min-width: 959px) {
     .a {
   max-height: 555px;
   min-width: auto;
+        
+        
 }
+    
+    
 }
+    
+
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -223,6 +330,8 @@ img.post-main-img{
   
   min-width: auto;
 }
-}
+    
+    
+
 
 
