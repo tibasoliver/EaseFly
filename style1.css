@@ -245,6 +245,10 @@ img.post-main-img{
   text-align: justify;
 }
 
+.desc{
+    margin-bottom: 80px;
+}
+
 @media screen and (max-width: 500px) {
     .textmob{
         background:#aaaaaa;
@@ -282,7 +286,7 @@ img.post-main-img{
     }  
     
     div.postrel1{
-        margin-bottom: 30px;
+        
     }
 }
 
